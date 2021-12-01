@@ -13,7 +13,7 @@ import java.util.Map;
 @RestController
 @RequestMapping(value = "/get")
 public class CloudrunController {
-    //    private static String DB_URL = "jdbc:mysql://35.200.43.91:3306/democloud?Unicode=true&characterEncoding=utf-8";
+//        private static String DB_URL = "jdbc:mysql://35.200.43.91:3306/democloud?Unicode=true&characterEncoding=utf-8&user=root&password=tinpro123";
     private static String DB_URL = "jdbc:mysql://google/democloud?socketFactory=com.google.cloud.sql.mysql.SocketFactory&cloudSqlInstance=stellar-arcadia-332908:asia-northeast1:demo-sosmysql&user=root&password=tinpro123";
     private Connection connection = null;
 
